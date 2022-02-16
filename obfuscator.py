@@ -3,7 +3,7 @@ from sys import argv as _argv
 
 __all__ = ('mega_obf', 'obfuscate')
 
-_other_hex_mode = True  # The same as having 3 args in sys.argv.
+_other_hex_mode = False  # The same as having 3 args in sys.argv.
 
 hex_char = [chr(i) for i in range(97, 103)]
 alphabet = [chr(i) for i in range(97, 123)]
