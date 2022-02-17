@@ -6,7 +6,7 @@
 PBN Obfuscator is a overpowered obfuscator for python, which will help you protect your source code.
 
 ## How to use
-If you are running the file directly without any custom sys.argv arguments then it you can input your code. And if there are custom sys.argv arguments then it will go like this: python3 obfuscator.py <inputfile> <outputfile> <hex>. However if you aren't running the file directly then you can just call the obfuscate() function.
+If you are running the file directly without any custom sys.argv arguments then you can input your code. And if there are custom sys.argv arguments then it will go like this: python3 obfuscator.py <inputfile> <outputfile> <hex>. However if you aren't running the file directly then you can just call the obfuscate() function.
 
 # Example
 Original:
