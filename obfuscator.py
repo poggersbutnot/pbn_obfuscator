@@ -6,7 +6,6 @@ __all__ = ('mega_obf', 'obfuscate')
 _other_hex_mode = False  # Hex mode. If it's true then it's the same as having 3 custom args in sys.argv.
 
 alphabet = [chr(i) for i in range(97, 123)]
-number = [chr(i) for i in range(49, 58)]
 name = ''.join([_choice(alphabet) for _ in range(_randint(4, 6))])
 arg_name = ''.join([_choice(alphabet) for _ in range(_randint(4, 6))])
 for_name = ''.join([_choice(alphabet) for _ in range(_randint(4, 6))])
